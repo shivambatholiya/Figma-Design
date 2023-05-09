@@ -1,0 +1,28 @@
+.containert1{
+    position: relative;
+}
+.containert1 img{
+    width: 100vw;
+}
+.containert1 .image-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.image-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+}
+.image-content h3 {
+    color: rgb(253, 106, 61);
+    font-weight: 630;
+}
+
+.image-content button {
+    background-color: rgb(253, 106, 61);
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    text-transform: uppercase;
+}

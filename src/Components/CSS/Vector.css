@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-vector {
+    width: 350px;
+    /* height: 430px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    /* margin-left: 24px; */
+
+}
+
+.image-vector img {
+    width: 15%;
+}
+
+p,
+h5 {
+    word-wrap: normal;
+    width: 300px;
+    text-align: center;
+    line-height: 0%;
+}

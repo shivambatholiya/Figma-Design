@@ -1,0 +1,6 @@
+.line {
+    width: 140px;
+    height: 4px;
+    background-color: rgb(255, 128, 0);
+    margin-block: 5px 15px;
+}

@@ -1,0 +1,34 @@
+.container2{
+    width: 100vw;
+    height: 80vh;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 247, 235);
+}
+.container2 img{
+    width: 25vw;
+    position: absolute;
+    top: 23%;
+    right: 14%;
+}
+.container2 .image-content {
+    position: absolute;
+    top: 30%;
+    left: 14%;
+}
+.image-content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+}
+.image-content h3 {
+    color: rgb(253, 106, 61);
+    font-weight: 630;
+}
+.image-content button {
+    background-color: rgb(253, 106, 61);
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    text-transform: uppercase;
+}

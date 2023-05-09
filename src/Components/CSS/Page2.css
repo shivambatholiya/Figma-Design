@@ -1,0 +1,135 @@
+body {
+    overflow-x: hidden;
+}
+
+.text {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.line {
+    width: 140px;
+    height: 4px;
+    background-color: rgb(255, 128, 0);
+    margin-block: 5px 15px;
+}
+
+.text span {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(73, 66, 66);
+}
+
+.card-contain {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    /* margin: 3% 7%; */
+}
+
+
+.vector-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.rectangle-container {
+    display: grid;
+    grid-template-columns: 50% 30% 25%;
+    height: 100%;
+    width: 82%;
+    height: 74vh;
+    /* overflow: hidden; */
+}
+
+.rectangle-17_18 img {
+    margin: 0 20px 20px 0;
+    height: 40%;
+}
+
+.rectangle-17_18 :nth-child(2) {
+    width: 360px;
+}
+
+.rectangle16 img {
+    height: 83%;
+    margin: 0;
+    padding: 0;
+}
+.para-container {
+    width: 800px;
+    position: relative;
+    background-color: rgba(255, 234, 234, 0.864);
+    z-index: -1;
+    height: 562px;
+}
+
+.para {
+    /* margin: auto; */
+    /* word-wrap: normal; */
+    font-size: small;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.para h1 {
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+}
+
+.para-btn {
+    border: 2px solid orangered;
+    padding: 10px 30px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.special-collections-2 h3 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.product-btn {
+    border: 2px solid red;
+    padding: 10px 30px;
+    margin-top: 50px;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.real-reviews {
+    width: 100%;
+    margin-top: 100px;
+}
+.news-container-1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.lnh {
+    text-align: center;
+    margin-top: 130px;
+}
+.good-img {
+    display: flex;
+}
+.good-img img {
+    margin-left: 20px;
+    width: 230px;
+}
